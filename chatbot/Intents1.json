@@ -1,0 +1,47 @@
+{"intents": [
+		{"tag": "greeting",
+         "patterns": ["Hi there","Hello there", "How are you", "Is anyone there?","Hey", "Hello"],
+         "responses": ["Hello, thanks.", "Good to see you", "Hi there, how can I help?", "Nice to see you", "Here I am", "Hey to you"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See you soon", "I am closing now"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon", "Nice to talk to you come again please", "Bye Bye", "Talk again soon do not forget me", "Please come again whenever you want"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That is helpful", "Awesome, thanks", "Thanks for helping me", "You are really helpful", "I am glad you help me", "I am very grateful to you", "You are amazing"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem", "I am always here for you"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" "],
+         "responses": ["Sorry, can not understand you", "Can you write it again please", "Not sure I understand", "Did you write something I can not catch it", "I am sorry can you repeat it again", "What did you say I do not understand it?", "I do not understand what you meant sorry", "I am not sure I understand you"],
+         "context": [""]
+        },
+        {"tag": "recommend",
+         "patterns": ["I do not know what to do", "What can I do", "Give me something", "I need your recommendation", "I want to hear your advice"],
+         "responses": ["I know what is best for you", "I want to recommend something", "You are gonna love these ones", "I hope you like it", "These are my choice for you", "I am really exited to recommend you these ones", "Well I love some of them, I am sure you love it too"],
+         "context": [""]
+        },
+        {"tag": "sadmood",
+         "patterns": ["I do not feel good today", "I am really sad", "Why everything is so messed up?", "Today is really a bad day", "Feeling worthless as always", "I want to cry", "I am lonely", "Nothing makes me smile anymore", "I do not care anything", "I am gloomy", "My friend is dead", "My grandad is sick", "I broke with my girlfriend", "My boyfriend cheated me", "I lost the game", "I miss my friend", "I could not see my parent for 2 weeks.", "I got divorced", "I got fired", "I resigned", "I do not talk to my friend anymore"],
+         "responses": ["Please do not be sad, I am here for you", "We can get through this", "Some days are just bad days, that is all. And I remind myself that not every day is going to be a good day, that is just the way it is", "You know that everything is going to be okay", "Talking is the best action to get past this you know.", "I know you feel like it does not pass but it will pass", "I know you feel like hopeless but you need to believe", "In the end you will feel much better about this subject believe me." ],
+         "context": [""]
+        },
+        {"tag": "happymood",
+         "patterns": ["feeling really good today .", "really happy", "It is a good day to be alive", "My mood is so high", "exited", "walking on the air right now", "I am content", "I am blissful", "I am engaged", "I am pregnant", "won a prize", "getting married", "I have a boyfriend", "bought a jacket that I always wanted", "Today is our annivesary", "It is my birthday", "My tv show starts", "My daughter has a graduation ceremony","going to have a baby", "present"],
+         "responses": ["I am happy to see you happy", "It is really good", "Well that is perfect", "I am happy for you keep your charm up", "Congratulations", "Wow I am happy for you.", "Amazing", "That is wonderful.", "Wow marvelous.", "Wonderful to hear that", "Perfect, I am glad"],
+         "context": [""]
+        },
+        {"tag": "angrymood", 
+         "patterns": ["furious .","She broke my heart","miss the train","My favourite watch has broken.","broke up with my boyfriend","broke up with my girlfriend", "She cheated on me.", "I got fired from work", "I want to scream", "I want to break things", "My parents got divorced","This situation is annoying me.","It is annoying.","feeling aggressive."],
+         "responses": ["You need to calm down.", "First take a deep breath, and think that everything is fine.","Do not waste your time in anger.","I think right now, we should focus on a solution about what is making you angry.","I understand how you could be frustrated but first you need to calm down and tell me more.","The greater your anger , the more you need to wait . First you need to calm down" ],
+         "context": [""] 
+        }
+       
+        
+
+      
+    ]
+}

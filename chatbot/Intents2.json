@@ -1,0 +1,83 @@
+	{"intents": [
+			{"tag": "greeting",
+	         "patterns": ["Hi there","Hello there", "How are you", "Is anyone there?","Hey", "Hello"],
+	         "responses": ["Hello, thanks.", "Good to see you", "Hi there, how can I help?", "Nice to see you", "Here I am", "Hey to you"],
+	         "context": [""]
+	        },
+	        {"tag": "goodbye",
+	         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See you soon", "I am closing now"],
+	         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon", "Nice to talk to you come again please", "Bye Bye", "Talk again soon do not forget me", "Please come again whenever you want"],
+	         "context": [""]
+	        },
+	        {"tag": "thanks",
+	         "patterns": ["Thanks", "Thank you", "That is helpful", "Awesome, thanks", "Thanks for helping me", "You are really helpful", "I am glad you help me", "I am very grateful to you", "You are amazing"],
+	         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem", "I am always here for you"],
+	         "context": [""]
+	        },
+	        {"tag": "noanswer",
+	         "patterns": [" "],
+	         "responses": ["Sorry, can not understand you", "Can you write it again please", "Not sure I understand", "Did you write something I can not catch it", "I am sorry can you repeat it again", "What did you say I do not understand it?", "I do not understand what you meant sorry", "I am not sure I understand you"],
+	         "context": [""]
+	        },
+	        {"tag": "recommend",
+	         "patterns": ["I do not know what to do", "What can I do", "Give me something", "I need your recommendation", "I want to hear your advice"],
+	         "responses": ["I know what is best for you", "I want to recommend something", "You are gonna love these ones", "I hope you like it", "These are my choice for you", "I am really exited to recommend you these ones", "Well I love some of them, I am sure you love it too"],
+	         "context": [""]
+	        },
+	        {"tag": "sadmood",
+	         "patterns": ["I do not feel good today", "I am really sad", "Why everything is so messed up?", "Today is really a bad day", "Feeling worthless as always", "I want to cry", "I am lonely", "Nothing makes me smile anymore", "I do not care anything", "I am gloomy", "My friend is dead", "My grandad is sick", "I broke with my girlfriend", "My boyfriend cheated me", "I lost the game", "I miss my friend", "I could not see my parent for 2 weeks.", "I got divorced", "I got fired", "I resigned", "I do not talk to my friend anymore","I did not think I did well.","When my friends did not ask me to go to a New Year's party with them.","Failing an examination.","I missed the last train home and had to walk in the pouring rain. ","When I had not understood anything after a lecture."," I did not get the salary increase","The thought of having to read a boring book.","After an exam which I failed.","My current work load is too much.","When I left the city, and all my family and my friends behind me.","I argue with my mother about my low grades.","I was told that I had not been successful in getting the job","My daughter had problems with her friends"],
+	         "responses": ["Please do not be sad, I am here for you", "We can get through this", "Some days are just bad days, that is all. And I remind myself that not every day is going to be a good day, that is just the way it is", "You know that everything is going to be okay", "Talking is the best action to get past this you know.", "I know you feel like it does not pass but it will pass", "I know you feel like hopeless but you need to believe", "In the end you will feel much better about this subject believe me." ],
+	         "context": [""]
+	        },
+	        {"tag": "happymood",
+	         "patterns": ["feeling really good today .", "really happy", "It is a good day to be alive", "My mood is so high", "exited", "walking on the air right now", "I am content", "I am blissful", "bought a jacket that I always wanted", "My tv show starts", "My daughter has a graduation ceremony", "present","During the period of falling in love.","When I had my children.","Whole family gets together for a one week in holiday.","I got a hug from someone I love.","I made dinner for some friends and they appreciated it very much.","Got in touch with earlier friends after a long absence.","A sunny Autumn day, after a long rainy period.","A friend I had missed very much came to see me unexpectedly.","Unexpectedly I met some persons who I like very much."," I met again a very good friend"," On my birthday,  a very close friend sent me a huge bouquet.","I got a good reaction from my tutor and tutorial group for a  presentation"],
+	         "responses": ["I am happy to see you happy", "It is really good", "Well that is perfect", "I am happy for you keep your charm up", "Congratulations", "Wow I am happy for you.", "Amazing", "That is wonderful.", "Wow marvelous.", "Wonderful to hear that", "Perfect, I am glad"],
+	         "context": [""]
+	        },
+	        {"tag": "angrymood",
+	         "patterns": ["furious .","She broke my heart","miss the train","My favourite watch has broken.","broke up with my boyfriend","broke up with my girlfriend", "She cheated on me.", "I got fired from work", "I want to scream", "I want to break things", "My parents got divorced","This situation is annoying me.","It is annoying.","feeling aggressive.","My offer to study at the university had been withdrawn and so I would not get hostel accomodation.","My mother told me that I spent more time than a woman on my toilet. I felt anger.","Had an insulting letter from my father.","Someone talking about me at my back.","Misunderstood by friends.","My best friend betrayed me","I quarrelled with my brothers.","The trick was really intolerable.","When I saw them I really wanted to slap each one of them."],
+	         "responses": ["You need to calm down.", "First take a deep breath, and think that everything is fine.","Do not waste your time in anger.","I think right now, we should focus on a solution about what is making you angry.","I understand how you could be frustrated but first you need to calm down and tell me more.","The greater your anger , the more you need to wait . First you need to calm down" ],
+	         "context": [""]
+			},
+			{"tag": "sad-shame",
+				"patterns": ["I did not speak the truth.","I was directing the feelings of discontent with myself at my partner.","I was tired and unmotivated, I shouted at my girlfriend.","I saw my son grab an oxygen mask as he had breathing difficulties because I had not stopped smoking.","As an adult I have been caught lying or behaving badly.","My brother and I have not always had a good relationship as I do not call him nowadays.","I promised to help a friend over a weekend and did not keep the promise.","My boyfriend revealed that he knew that I had discovered things of an important nature about him","I had not prepared my contribution to the group with the result that the overall result was poor.","I met a friend whom I had not seen for a long time that I should have got in touch with her earlier.","I complained about a colleagues behaviour, I found out that she was trying to fight againt her addiction.","I was caught stealing money from my father.","I could not work quickly enough, and was told that my work was not up to standard.","At the funeral of my uncle,I was not familiar with the etiquette because of my ignorance.","Badly chosen words to a vague acquaintance of mine having given the wrong impression to I wanted to say","I told evil lies about a close friend of mine in order to charm a person whom I wanted to impress.","I felt a sense of shame when I compromised a colleague of mine.","My son was apprehended for shoplifting. I have not been able to prevent my son.","I behave unethically and without understanding the problems of the man I love.","the way I deceived that I could not help a friend, although it was absolutely possible for me.","Losing my temper and allowing myself to act childishly by yelling and screaming at a person.","I think that I am rather shy and do not mix with people as I would have liked to, out of shyness.","I feel this emotion very often when I try to express my feelings in public","I made an unkind remark about the ethnicity of some friends without realizing it.","I had not been accepted to a college which I wanted. I had let myself and my parents down.","I was emotionally unstable I said things which may have hurt others."],
+			 	"responses": ["Yeah, we do some shameful things in our life but and it is okay we need to move forward","Shame caused by lots of events and some of them can be our fault we need to accept what we did","Sometimes we think little to ourselves but we are not. We can change our actions towards better.","We do something that we are not intended to, you need to understand that we can learn from them","I did lots of shameful things that I do not want to relive again. You just need to set things right","Sometimes we turn to a child and forget about all the things we learn. Everybody can make the same mistakes."],
+				"context": [""]
+			},
+
+			{"tag": "angry-disgust",
+				"patterns": ["Observing someone in the cafeteria noisily gulping in his food, having extremely bad manners.","A mother who shouts at her child for nothing.","A friend unjustly put the blame on me to relieve his conscience.","I learned that a relative had been spreading rumours about me.","I saw a very aggressive man who practically attacked the children who got in his way.","Some people were unfairly treated, because of their nationality, color.","Close friends talking badly of other friends.","In the army, an acquaintance of mine tended to use his position to advance his own interests.","He told him on purpose the wrong things so that he had to repeat a year.","I have felt this feeling when a person whom I believe and respect, lied to me.","I hate the behaviour of my so called friends.","A relative not acting on her promise.","I was forced to go to a party and he was telling people that I was his girlfriend.","Once I offended a friend, she was just telling other people about it.","He was a habitual noise-maker and caused great conflicts with the teachers.","I dated a close girlfriends boyfriend a few times. When she found out she finished our friendship.","I made an end on a relationship after three years.","My oldest sister discovered that her boyfriend had another girl.","I lived together with my boyfriend. He told me that he had chat up with another girl.","A case of unrequited love.","My boyfriend openly let me down, preferring another girl."],
+				"responses": ["I understand that what some people did is unexceptable for you. But its who they are. Some of them can change but it is a long process.","What other people did, you know that you never do anything like that and thats matters","We always except the life the way we like but know that not everyone is up to your wish.","It is really bothered you that much there is always an option that you can talk to that person","I see that some people's actions affects you. The best thing to do is talk to them.","I really do not undestand why people like this, but not everyone grows up same."],
+				"context": [""]
+			},
+			{"tag": "guilt",
+				 "patterns": ["I do not help out enough at home.","I realize that I consider material things more important than caring for my relatives.","Little contact with my father before he died.","I was fined for speeding.","I had told a person unpleasant things in a bad manner. He was very depressed and caused an accident.","At my job, I got disproportionately angry with a child. My reaction was not as it should have been.","Eating too much I felt guilty afterwards because I knew I should not have overeaten","I threw away an object, which belonged to a friend, I did not know what to do with it.","Not thanking relatives for a favor done.","Losing my temper with my spouse.","Talking about someone behind their back.","I did not tell my parents exacly what had made me so late in getting home one night.","I felt guilt when I betrayed the person whom I loved.","Being catched when stealing.","I broke something and a friend of mine was blamed."],
+				 "responses": ["You need to learn from your lessons so that you will not do it again in the future.","Sometimes we made mistakes that we did not want to do. It is okay we are humans but we can act better.","We need to think our actions before we do it. You do not realise it but it may hurt people. Be more careful please","When you did something that you feel guilt. You need to see that you can not change past but focus on future to be careful about your actions.","I mean I am not an expert but you do not wanna live with guilt. Just be the person you wanna be"],
+				 "context": [""]
+			},
+
+			{"tag": "sad-lost",
+				 "patterns": ["I lost the person who meant the most to me.","When my grandmother died.","My grandmother died suddenly last summer.","My friend told that her wife had cancer.","A close acquaintance of the family died of lung cancer.","After hearing about the death of my grandfather.","I felt sad and depressed when I heard that our cat had died.","my half brother became seriously ill with cancer and died later."],
+				 "responses": ["It hurts when you have somenone in your heart, but you cant have them in your arms", "Over time, you will learn how to deal with life without a person you cared","I was so sorry to hear that","I know how you feel. This must be so hard for you.", "If I had experienced this pain, I would have been very sad like you."],
+				 "context": [""]
+			},
+			{"tag": "celebrate",
+				"patterns": ["When I got a letter offering me the Summer job","I pass my  examination.","When I passed the first examination that I had to repeat.","Passing an exam I did not expect to pass.","The day I was told that I had been accepted as a student of economics.","I got the loan for my studies.","When I won a tennis match.","Passed the last exam.","I worked at a lawyer's office during Summer and got a very  good reference from him.","When I get a hug from someone I love.","When I recently got an appartment in central.","When I won an unexpected sum of money.","I have a new born child.","The birth of my child.","Managed to run 30 Km on skis fairly simply.","Getting a part-time job.","On my birthday, an old friend of mine sent me a card.","It is my birthday.","My admittance to the University.","Winning Queensland Chess Championship.","My sister had a daughter.","I heard that I had passed my final examination at school with success.","A close married friend has just had his first child.","Getting a good mark for a subject I had worked hard at.","Got through first semester University.","I received my acceptance from University","Today is our annivesary"],
+				"responses": ["That is great. I am really happy for you","That is a really good reason to celebrate","I believe you feel really happy right now","Congratulations! I am happy for you.","I can not believe this. This is great!","I wish you all the bests.","You’re so great!","This is a perfect new.I am proud of you"],
+				"context": [""]
+			},
+
+			{"tag": "anger-shame",
+			  "patterns": ["My mother revealed personal details about me to other people when I was unable to defend myself.","Being sexually assulted on a bus and nobody helped","Being insulted in public for the wrong reason.","Being insulted by my roommate.","Being insulted on a bus.","My roommate being unconsiderate."],
+			  "responses": ["It is okay to be angry. But to pass this situation you need to talk about it","Please do not feel you are responsible for their actions.", "I know it is very uncomfortable for you but you must get through this."],
+			  "context": [""]
+			},
+
+			{"tag": "love",
+				"patterns": ["I feel unbelievably happy about the relationship between my boyfriend and me","I fell in love.","My girlfriend sent me a letter with a shiny picture in it.","After a long time I saw my boyfriend again.","motional reassurances by spouse.","Getting back with my boyfriend after a year away apart.","My present boyfriend asked me initially to go out with him","being in love for the first time."],
+				"responses": ["Oh, that is cute!","It is so romantic.","The best thing to hold onto in life is each other.","Everyone need love in their life like a heart needs a beat. I am really glad for you"],
+				"context": [""]
+			}
+
+	    ]
+	}
