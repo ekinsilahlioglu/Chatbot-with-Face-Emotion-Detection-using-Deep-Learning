@@ -118,11 +118,6 @@ model.save('chatbot_Bert_9090.h5', hist)
 
 
 
-accuracy_test_set = ["I got a job offer today","I want to die today",
-                     "My friend gaining weights because of his sickness",
-                     "I am so raging that I can hit something","I vomitted. I do not feel so good"]
-
-
 
 
 
