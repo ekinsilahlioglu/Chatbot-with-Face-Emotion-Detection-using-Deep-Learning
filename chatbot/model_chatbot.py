@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 19 16:54:59 2020
 
-@author: ekinsilahlioglu
-"""
 
 import nltk
 from nltk.stem import WordNetLemmatizer
